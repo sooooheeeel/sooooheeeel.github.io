@@ -3,7 +3,7 @@ title: Sohel Khan
 header: Sohel Khan
 description: Software developer, Freelancer
 permalink: /
-layout: 
+layout: default
 ---
 *Hey!*
 Welcome to my Personal Website.
