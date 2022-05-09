@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#f76497">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+   </head>
+  <body>
+    <header>
+        <figure class="brand">Sohel Khan</figure>
+        <nav class="menu">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <ul>   
+                   <li><a  href="/"> Home</a> </li>
+                   <li>Projects</li>
+                   <li>CV </li>
+                   <li>Portfolio </li>
+            </ul>
+        </nav>
+    </header>
+   
+
+    <main>     
+
+              <h1 style="text-align: center;"> {{ page.header }} </h1>
+                        {{ page.description }}
+                              {{ content }}
+
+        
+    </main>     
+    <footer>
+      <p> Sohel Khan©2022</p>
+    </footer>
+  </body>
+</html>
+ 
